@@ -19,6 +19,7 @@ while (tentativas < 4) {
     if(tentativas === 4){
         alert(`Suas tentativas acabaram`);
     } else if (tentativas <3){
+        
         alert(`você ainda tem  ${4 - tentativas} tentativas`);   
     }else{
         alert(`você ainda tem  ${4 - tentativas} tentativa`);
