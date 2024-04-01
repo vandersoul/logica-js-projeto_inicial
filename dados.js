@@ -1,8 +1,4 @@
-let idade = parseInt(prompt("qual sua idade?"));
-if (idade >= 18){
-    alert ("voce é maior de idade");
-    
-}   else{ 
-    alert ("voce é menor de idade");
-}
-
+let nome =prompt("qual é seu nome?");
+let sobreNome = prompt("qual seu sobre nome?");
+let idade = prompt("qual sua idade?");
+alert(`seu nome é ${nome} ${sobreNome} e sua idade é ${idade}`);
