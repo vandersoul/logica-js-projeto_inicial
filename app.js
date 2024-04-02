@@ -11,7 +11,7 @@ function jogo(){
 
     // wile cria um laço de repetição enquanto a condição seja verdadeira
     while (tentativas < 4) {
-        let numeroDigitado = parseInt(prompt('Digite um número de 1 a 5'));
+        let numeroDigitado = parseInt(prompt(`Digite um número de 1 a ${numeroDeNumeros} `));
         // if é para verificar se o numero secreto é igual ao numero digitado
     
         if(numeroDigitado === numeroSecreto){
