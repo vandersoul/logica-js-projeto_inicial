@@ -86,3 +86,10 @@ h2 {
     font-size: 32px;
     font-weight: 400;
 }
+
+.botao {
+    font-size: 22px;
+    color: #01080E;
+    border-radius: 5px;
+    border: none;
+}
