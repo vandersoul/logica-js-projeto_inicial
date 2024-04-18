@@ -13,7 +13,7 @@ function jogar(linha, coluna) {
         jogadorAtual = jogadorAtual === 'x' ? '0' : 'x';
     }
     else {
-        console.log('Esta posiçãoja está ocupada. tente outra.')
+        console.log('Esta posição ja está ocupada. tente outra.')
     }
     console.table(tabuleiro);
 
